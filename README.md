@@ -13,7 +13,7 @@ Ensure you have Python (3.7 or higher) and `pip` installed on your machine.
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RalitsaTerzieva/
+   git clone https://github.com/RalitsaTerzieva/flaskify-api/tree/main
    cd flaskifyapi
 
 2. Create and activate a virtual environment:
