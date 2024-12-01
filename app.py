@@ -13,7 +13,7 @@ class PuppyName(Resource):
             if pup['name'] == name:
                 return pup
             
-        return {'name': None}
+        return {'name': None}, 404
 
     def post(self, name):
         pup = {'name': name}
