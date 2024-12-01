@@ -28,7 +28,7 @@ class PuppyName(Resource):
                 return {'note': 'Delete Success!'}
             
 class AllNames(Resource):
-    
+
     def get(self):
         return {'puppies': puppies}
 
@@ -39,6 +39,8 @@ class HelloWorld(Resource):
     
 
 api.add_resource(HelloWorld, '/')
+api.add_resource(PuppyName, '/puppy/<string:name>')
+api.add_resource(AllNames, '/puppies')
 
 
 if __name__ == '__main__':
