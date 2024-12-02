@@ -10,7 +10,7 @@ Flask-Migrate==3.1.0
 Flask-OAuth==0.12
 flask-oauthlib==0.9.5
 Flask-SQLAlchemy==2.5.1
-Flask-WTF==0.15.1
+Flask-WTF==0.3.2
 httplib2==0.20.2
 idna==3.3
 itsdangerous==2.1.0
